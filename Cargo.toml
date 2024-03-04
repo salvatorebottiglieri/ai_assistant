@@ -6,6 +6,12 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+anyhow = "1.0.80"
 chrono = "0.4.34"
 dotenv = "0.15.0"
 postgres = "0.19.7"
+qdrant-client = "1.7.0"
+serde_json = "1.0.114"
+tokio = { version = "1.36.0", features = ["rt-multi-thread"] }
+tonic = "0.11.0"
+futures = "0.3"
